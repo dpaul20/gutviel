@@ -1,0 +1,20 @@
+.row.header{
+	background-color: #FF7400;
+}
+#header1{
+	background-color: #FF821A;
+	border-radius: 0px 24px 24px 0px;
+}
+
+.page-header h1{
+	color: #D46000;
+}
+
+.gutviel{
+	color: #7F3A00;
+	text-align: right;
+}
+
+.altura{
+	height: 400px;
+}
