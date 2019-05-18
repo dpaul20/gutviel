@@ -2,12 +2,35 @@
 @section('title')
     {{ config('app.name') }}
 @endsection
-@section('content')
-	<h1>Contenido</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+@section('content')	
+<!------ Include the above in your HEAD tag ---------->
+<div class="container-fluid">
+    <div id="carouselExample" class="carousel slide oferta" data-ride="carousel" data-interval="3000">
+        <div class="carousel-inner row w-100 mx-auto" role="listbox">
+            @for ($i = 1; $i < 7; $i++)
+                <div class="carousel-item col-md-3 @php
+                {{ echo $retVal = ($i == 1) ? 'active' : '' ;}}
+            @endphp">
+                   <div class="panel panel-default">
+                      <div class="panel-thumbnail">
+                        <a href="#" title="image {{ $i }}" class="thumb">
+                          <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text={{ $i }}" alt="slide {{ $i }}">
+                        </a>
+                      </div>
+                    </div>
+                </div>
+            @endfor
+            
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
 @endsection
