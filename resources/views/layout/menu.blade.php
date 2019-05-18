@@ -2,12 +2,21 @@
   	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
 		    <li class="nav-item active">
+
 		        <a class="nav-link" href="#">GUTVIEL</a>
+
+		        <a class="nav-link" href="#">Nosotros</a>
+
 		    </li>
 		    <li class="nav-item">
 		        <a class="nav-link" href="#">Catálogo</a>
 		    </li>
 		    <li class="nav-item">
+
+		        <a class="nav-link" href="#">Novedades</a>
+		    </li>
+		    <li class="nav-item">
+
 		        <a class="nav-link" href="#">Contactenos</a>
 		    </li>
 	    </ul>
