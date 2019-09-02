@@ -1,46 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
   @include('layout.head')
   <body>
-    <div class="container-fluid">
-      <div class="row header">
-        <div class="col-md-4" id="header1">
-          @include('layout.header')
-        </div>
-        <div class="col-md-8" id="header2"></div>        
-      </div>
-  <div class="row menu">
-    <div class="col-md-12">
-      @include('layout.menu')
+    <div id="Index___Web_1280"> 
+    <header>
+      @include('layout.header')
+    </header> 
+    <div id="contenido">
+       @include('layout.contenido')
     </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      @include('layout.modulos.slide-ofertas')
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-3">
+    <div id="izquierda">
       @include('layout.modulos.izquierda')
     </div>
-    <div class="col-md-6">
-      @yield('content')
+    <div id="derecha">
+      @include('layout.modulos.derecha')
     </div>
-    <div class="col-md-3">
-      @include('layout.modulos.form-contacto')
+    <div id="footer">
+      @include('layout.footer') 
     </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      @include('layout.modulos.slide-marcas')
+    <div id="nav">
+      @include('layout.menu') 
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-12">
-      @include('layout.footer')
-    </div>
-  </div>
-</div>
-@include('layout.scripts')
   </body>
 </html>

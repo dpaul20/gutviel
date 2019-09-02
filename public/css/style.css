@@ -1,108 +1,1911 @@
-.row.header{
-<<<<<<< HEAD
-	background-color: #FF7400;
-}
-#header1{
-	background-color: #FF821A;
-	border-radius: 0px 24px 24px 0px;
-}
-
-.page-header h1{
-	color: #D46000;
-}
-
-.gutviel{
-	color: #7F3A00;
-	text-align: right;
-}
-
-.altura{
-	height: 400px;
-<<<<<<< HEAD
-}
-=======
-}
-
-/*carousel de producto*/
-@media (min-width: 768px) {
-
-    /* show 3 items */
-    .carousel-inner .active,
-    .carousel-inner .active + .carousel-item,
-    .carousel-inner .active + .carousel-item + .carousel-item,
-    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
-        display: block;
+body {
+        margin: 0;
+        padding: 0;
     }
-    
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
-        transition: none;
+    :root {
+        --web-view-ids: Index___Web_1280;
     }
-    
-    .carousel-inner .carousel-item-next,
-    .carousel-inner .carousel-item-prev {
-      position: relative;
-      transform: translate3d(0, 0, 0);
+    #Index___Web_1280 * {
+        margin: 0;
+        padding: 0;
     }
-    
-    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    #Index___Web_1280 {
         position: absolute;
-        top: 0;
-        right: -25%;
-        z-index: -1;
-        display: block;
-        visibility: visible;
+        box-sizing: border-box;
+        background: #E5E5E5;
+        width: 1280px;
+        height: 800px;
+        font-family: fuentes;
+        background-color: rgba(241,238,238,1);
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        opacity: 1;
+        --web-view-name: Index - Web 1280;
+        --web-view-id: Index___Web_1280;
+        --web-enable-deep-linking: true;
+        --web-page-font: fuentes;
     }
-    
-    /* left or forward direction */
-    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
-    .carousel-item-next.carousel-item-left + .carousel-item,
-    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
-    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
-    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
-    }
-    
-    /* farthest right hidden item must be abso position for animations */
-    .carousel-inner .carousel-item-prev.carousel-item-right {
+    #header {
+        opacity: 1;
         position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        display: block;
-        visibility: visible;
+        width: 1004px;
+        height: 134.088px;
+        left: 138px;
+        top: -0.088px;
+        overflow: visible;
     }
-    
-    /* right or prev direction */
-    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
-    .carousel-item-prev.carousel-item-right + .carousel-item,
-    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
-    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
-    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(100%, 0, 0);
-        visibility: visible;
-        display: block;
-        visibility: visible;
+    #header_A1_Path_1 {
+        opacity: 1;
+        fill: rgba(255,128,0,1);
     }
-
-}
-
- /* Bootstrap Lightbox using Modal */
-
-#profile-grid { overflow: auto; white-space: normal; } 
-#profile-grid .profile { padding-bottom: 40px; }
-#profile-grid .panel { padding: 0 }
-#profile-grid .panel-body { padding: 15px }
-#profile-grid .profile-name { font-weight: bold; }
-#profile-grid .thumbnail {margin-bottom:6px;}
-#profile-grid .panel-thumbnail { overflow: hidden; }
-#profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
-
-
-
->>>>>>> deivy17
+    .header_A1_Path_1 {
+        transform: matrix(1,0,0,1,0,0);
+        overflow: visible;
+        position: absolute;
+        top: 0.088px;
+        left: 0.224px;
+        width: 1003.776px;
+        height: 133.825px;
+    }
+    #logo {
+        opacity: 1;
+        position: absolute;
+        width: 405px;
+        height: 134px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Logo {
+        opacity: 1;
+        filter: drop-shadow(15px 0px 6px rgba(0, 0, 0, 0.161));
+        fill: rgba(255,255,255,1);
+    }
+    .Logo {
+        position: absolute;
+        overflow: visible;
+        width: 429px;
+        height: 152px;
+        left: 0px;
+        top: 0px;
+    }
+    #representaciones_gutviel {
+        opacity: 1;
+        position: absolute;
+        width: 323.778px;
+        height: 109px;
+        left: 0.223px;
+        top: 21.087px;
+        overflow: visible;
+    }
+    #GUTVIEL {
+        opacity: 1;
+        position: absolute;
+        left: 84.777px;
+        top: 48px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 240px;
+        height: 61px;
+        text-align: right;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 42px;
+        color: rgba(255,128,0,1);
+    }
+    #REPRESENTACIONES {
+        opacity: 1;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 324.777px;
+        height: 34px;
+        text-align: left;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(255,128,0,1);
+    }
+    #AHORRA_M_S_CON_NUESTROS_PRECIO {
+        opacity: 1;
+        position: absolute;
+        left: 443.446px;
+        top: 0.088px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 492.554px;
+        height: 108.825px;
+        text-align: right;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(246,242,242,1);
+    }
+    #buscar {
+        opacity: 1;
+        position: absolute;
+        width: 255px;
+        height: 33px;
+        left: 749px;
+        top: 101.088px;
+        overflow: visible;
+    }
+    #Rect_ngulo_22 {
+        opacity: 1;
+        fill: rgba(255,255,255,1);
+    }
+    .Rect_ngulo_22 {
+        position: absolute;
+        overflow: visible;
+        width: 255px;
+        height: 30px;
+        left: 0px;
+        top: 0px;
+    }
+    #Buscar {
+        opacity: 1;
+        position: absolute;
+        left: 15px;
+        top: 4px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 70px;
+        height: 29px;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(255,128,0,1);
+    }
+    #_ {
+        opacity: 1;
+        position: absolute;
+        left: 212px;
+        top: 3px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 40px;
+        height: 24px;
+        text-align: center;
+        font-family: Font Awesome 5 Free, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(255,128,0,1);
+    }
+    #contenido {
+        opacity: 1;
+        position: absolute;
+        width: 494.5px;
+        height: 548.88px;
+        left: 393px;
+        top: 181.208px;
+        overflow: visible;
+    }
+    #carousels {
+        opacity: 1;
+        position: absolute;
+        width: 494.5px;
+        height: 548.88px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Rect_ngulo_21 {
+        opacity: 1;
+        fill: rgba(255,255,255,1);
+    }
+    .Rect_ngulo_21 {
+        position: absolute;
+        overflow: visible;
+        width: 494.5px;
+        height: 541.552px;
+        left: 0px;
+        top: 0.208px;
+    }
+    #carousel_1 {
+        opacity: 1;
+        position: absolute;
+        width: 494px;
+        height: 271.088px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #titulo {
+        opacity: 1;
+        position: absolute;
+        width: 494px;
+        height: 30px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Rect_ngulo_13 {
+        opacity: 1;
+        fill: rgba(76,20,204,1);
+    }
+    .Rect_ngulo_13 {
+        position: absolute;
+        overflow: visible;
+        width: 494px;
+        height: 30px;
+        left: 0px;
+        top: 0px;
+    }
+    #SOLO_POR_HOY {
+        opacity: 1;
+        position: absolute;
+        left: 177px;
+        top: 4px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 141px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(255,255,255,1);
+    }
+    #VER__ {
+        opacity: 0.8;
+        position: absolute;
+        left: 425px;
+        top: 4.424px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 59px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(255,255,255,1);
+    }
+    #item_carousel {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 238.088px;
+        left: 0px;
+        top: 33px;
+        overflow: visible;
+    }
+    #nombre {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 54px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #nombre_A1_Rectangle_5 {
+        opacity: 1;
+        fill: transparent;
+    }
+    .nombre_A1_Rectangle_5 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 54px;
+        left: 0px;
+        top: 0px;
+    }
+    #PRODUCTO_ {
+        opacity: 1;
+        position: absolute;
+        left: 66px;
+        top: 13px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 108.151px;
+        height: 28px;
+        text-align: left;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(255,128,0,1);
+    }
+    #imagen_producto {
+        opacity: 1;
+        fill: url(#imagen_producto_A1_Rectangle_7_pattern);
+    }
+    .imagen_producto {
+        position: absolute;
+        overflow: visible;
+        width: 154px;
+        height: 152.904px;
+        left: 85px;
+        top: 54.225px;
+    }
+    #imagenes_marcas {
+        opacity: 1;
+        position: absolute;
+        width: 69px;
+        height: 152.868px;
+        left: 0px;
+        top: 54px;
+        overflow: visible;
+    }
+    #marca1 {
+        opacity: 1;
+        fill: url(#marca1_A1_Rectangle_9_pattern);
+    }
+    .marca1 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 49px;
+        left: 0px;
+        top: 0px;
+    }
+    #marca2 {
+        opacity: 1;
+        fill: url(#marca2_A1_Rectangle_11_pattern);
+    }
+    .marca2 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 49px;
+        left: 0px;
+        top: 53.526px;
+    }
+    #marca3 {
+        opacity: 1;
+        fill: url(#marca3_A1_Rectangle_13_pattern);
+    }
+    .marca3 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 49px;
+        left: 0px;
+        top: 103.868px;
+    }
+    #boton_comprar {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 31.22px;
+        left: 0px;
+        top: 206.868px;
+        overflow: visible;
+    }
+    #boton {
+        opacity: 1;
+        fill: rgba(255,255,255,1);
+    }
+    .boton {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 31px;
+        left: 0px;
+        top: 0.22px;
+    }
+    #boton_A1_Group_13 {
+        opacity: 1;
+        position: absolute;
+        width: 69px;
+        height: 31.22px;
+        left: 170px;
+        top: 0px;
+        overflow: visible;
+    }
+    #boton_comprar_A1_Rectangle_15 {
+        opacity: 1;
+        fill: rgba(255,128,0,1);
+    }
+    .boton_comprar_A1_Rectangle_15 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 31.22px;
+        left: 0px;
+        top: 0px;
+    }
+    #Comprar {
+        opacity: 1;
+        position: absolute;
+        left: 8.25px;
+        top: 8.336px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 53px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(255,255,255,1);
+    }
+    #item_carousel_A1_Group_14 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 238.088px;
+        left: 255px;
+        top: 33px;
+        overflow: visible;
+    }
+    #nombre_A1_Group_15 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 54px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #nombre_A1_Rectangle_16 {
+        opacity: 1;
+        fill: transparent;
+    }
+    .nombre_A1_Rectangle_16 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 54px;
+        left: 0px;
+        top: 0px;
+    }
+    #PRODUCTO__A1_Text_10 {
+        opacity: 1;
+        position: absolute;
+        left: 66px;
+        top: 13px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 108.151px;
+        height: 28px;
+        text-align: left;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(255,128,0,1);
+    }
+    #imagen_producto_A1_Rectangle_17 {
+        opacity: 1;
+        fill: url(#imagen_producto_A1_Rectangle_18_pattern);
+    }
+    .imagen_producto_A1_Rectangle_17 {
+        position: absolute;
+        overflow: visible;
+        width: 154px;
+        height: 152.904px;
+        left: 85px;
+        top: 54.225px;
+    }
+    #imagenes_marcas_A1_Group_16 {
+        opacity: 1;
+        position: absolute;
+        width: 69px;
+        height: 152.868px;
+        left: 0px;
+        top: 54px;
+        overflow: visible;
+    }
+    #marca1_A1_Rectangle_19 {
+        opacity: 1;
+        fill: url(#marca1_A1_Rectangle_20_pattern);
+    }
+    .marca1_A1_Rectangle_19 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 49px;
+        left: 0px;
+        top: 0px;
+    }
+    #marca2_A1_Rectangle_21 {
+        opacity: 1;
+        fill: url(#marca2_A1_Rectangle_22_pattern);
+    }
+    .marca2_A1_Rectangle_21 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 49px;
+        left: 0px;
+        top: 53.526px;
+    }
+    #marca3_A1_Rectangle_23 {
+        opacity: 1;
+        fill: url(#marca3_A1_Rectangle_24_pattern);
+    }
+    .marca3_A1_Rectangle_23 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 49px;
+        left: 0px;
+        top: 103.868px;
+    }
+    #boton_comprar_A1_Group_17 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 31.22px;
+        left: 0px;
+        top: 206.868px;
+        overflow: visible;
+    }
+    #boton_A1_Rectangle_25 {
+        opacity: 1;
+        fill: rgba(255,255,255,1);
+    }
+    .boton_A1_Rectangle_25 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 31px;
+        left: 0px;
+        top: 0.22px;
+    }
+    #boton_A1_Group_18 {
+        opacity: 1;
+        position: absolute;
+        width: 69px;
+        height: 31.22px;
+        left: 170px;
+        top: 0px;
+        overflow: visible;
+    }
+    #boton_comprar_A1_Rectangle_26 {
+        opacity: 1;
+        fill: rgba(255,128,0,1);
+    }
+    .boton_comprar_A1_Rectangle_26 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 31.22px;
+        left: 0px;
+        top: 0px;
+    }
+    #Comprar_A1_Text_11 {
+        opacity: 1;
+        position: absolute;
+        left: 8.25px;
+        top: 8.336px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 53px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(255,255,255,1);
+    }
+    #carousel_1_A1_Group_19 {
+        opacity: 1;
+        position: absolute;
+        width: 494px;
+        height: 271.088px;
+        left: 0px;
+        top: 277.792px;
+        overflow: visible;
+    }
+    #titulo_A1_Group_20 {
+        opacity: 1;
+        position: absolute;
+        width: 494px;
+        height: 30px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Rect_ngulo_13_A1_Rectangle_27 {
+        opacity: 1;
+        fill: rgba(76,20,204,1);
+    }
+    .Rect_ngulo_13_A1_Rectangle_27 {
+        position: absolute;
+        overflow: visible;
+        width: 494px;
+        height: 30px;
+        left: 0px;
+        top: 0px;
+    }
+    #SOLO_POR_HOY_A1_Text_12 {
+        opacity: 1;
+        position: absolute;
+        left: 177px;
+        top: 4px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 141px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(255,255,255,1);
+    }
+    #VER___A1_Text_13 {
+        opacity: 0.8;
+        position: absolute;
+        left: 425px;
+        top: 4.424px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 59px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(255,255,255,1);
+    }
+    #item_carousel_A1_Group_21 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 238.088px;
+        left: 0px;
+        top: 33px;
+        overflow: visible;
+    }
+    #nombre_A1_Group_22 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 54px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #nombre_A1_Rectangle_28 {
+        opacity: 1;
+        fill: transparent;
+    }
+    .nombre_A1_Rectangle_28 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 54px;
+        left: 0px;
+        top: 0px;
+    }
+    #PRODUCTO__A1_Text_14 {
+        opacity: 1;
+        position: absolute;
+        left: 66px;
+        top: 13px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 108.151px;
+        height: 28px;
+        text-align: left;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(255,128,0,1);
+    }
+    #imagen_producto_A1_Rectangle_29 {
+        opacity: 1;
+        fill: url(#imagen_producto_A1_Rectangle_30_pattern);
+    }
+    .imagen_producto_A1_Rectangle_29 {
+        position: absolute;
+        overflow: visible;
+        width: 154px;
+        height: 152.904px;
+        left: 85px;
+        top: 54.225px;
+    }
+    #imagenes_marcas_A1_Group_23 {
+        opacity: 1;
+        position: absolute;
+        width: 69px;
+        height: 152.868px;
+        left: 0px;
+        top: 54px;
+        overflow: visible;
+    }
+    #marca1_A1_Rectangle_31 {
+        opacity: 1;
+        fill: url(#marca1_A1_Rectangle_32_pattern);
+    }
+    .marca1_A1_Rectangle_31 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 49px;
+        left: 0px;
+        top: 0px;
+    }
+    #marca2_A1_Rectangle_33 {
+        opacity: 1;
+        fill: url(#marca2_A1_Rectangle_34_pattern);
+    }
+    .marca2_A1_Rectangle_33 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 49px;
+        left: 0px;
+        top: 53.526px;
+    }
+    #marca3_A1_Rectangle_35 {
+        opacity: 1;
+        fill: url(#marca3_A1_Rectangle_36_pattern);
+    }
+    .marca3_A1_Rectangle_35 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 49px;
+        left: 0px;
+        top: 103.868px;
+    }
+    #boton_comprar_A1_Group_24 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 31.22px;
+        left: 0px;
+        top: 206.868px;
+        overflow: visible;
+    }
+    #boton_A1_Rectangle_37 {
+        opacity: 1;
+        fill: rgba(255,255,255,1);
+    }
+    .boton_A1_Rectangle_37 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 31px;
+        left: 0px;
+        top: 0.22px;
+    }
+    #boton_A1_Group_25 {
+        opacity: 1;
+        position: absolute;
+        width: 69px;
+        height: 31.22px;
+        left: 170px;
+        top: 0px;
+        overflow: visible;
+    }
+    #boton_comprar_A1_Rectangle_38 {
+        opacity: 1;
+        fill: rgba(255,128,0,1);
+    }
+    .boton_comprar_A1_Rectangle_38 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 31.22px;
+        left: 0px;
+        top: 0px;
+    }
+    #Comprar_A1_Text_15 {
+        opacity: 1;
+        position: absolute;
+        left: 8.25px;
+        top: 8.336px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 53px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(255,255,255,1);
+    }
+    #item_carousel_A1_Group_26 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 238.088px;
+        left: 255px;
+        top: 33px;
+        overflow: visible;
+    }
+    #nombre_A1_Group_27 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 54px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #nombre_A1_Rectangle_39 {
+        opacity: 1;
+        fill: transparent;
+    }
+    .nombre_A1_Rectangle_39 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 54px;
+        left: 0px;
+        top: 0px;
+    }
+    #PRODUCTO__A1_Text_16 {
+        opacity: 1;
+        position: absolute;
+        left: 66px;
+        top: 13px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 108.151px;
+        height: 28px;
+        text-align: left;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(255,128,0,1);
+    }
+    #imagen_producto_A1_Rectangle_40 {
+        opacity: 1;
+        fill: url(#imagen_producto_A1_Rectangle_41_pattern);
+    }
+    .imagen_producto_A1_Rectangle_40 {
+        position: absolute;
+        overflow: visible;
+        width: 154px;
+        height: 152.904px;
+        left: 85px;
+        top: 54.225px;
+    }
+    #imagenes_marcas_A1_Group_28 {
+        opacity: 1;
+        position: absolute;
+        width: 69px;
+        height: 152.868px;
+        left: 0px;
+        top: 54px;
+        overflow: visible;
+    }
+    #marca1_A1_Rectangle_42 {
+        opacity: 1;
+        fill: url(#marca1_A1_Rectangle_43_pattern);
+    }
+    .marca1_A1_Rectangle_42 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 49px;
+        left: 0px;
+        top: 0px;
+    }
+    #marca2_A1_Rectangle_44 {
+        opacity: 1;
+        fill: url(#marca2_A1_Rectangle_45_pattern);
+    }
+    .marca2_A1_Rectangle_44 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 49px;
+        left: 0px;
+        top: 53.526px;
+    }
+    #marca3_A1_Rectangle_46 {
+        opacity: 1;
+        fill: url(#marca3_A1_Rectangle_47_pattern);
+    }
+    .marca3_A1_Rectangle_46 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 49px;
+        left: 0px;
+        top: 103.868px;
+    }
+    #boton_comprar_A1_Group_29 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 31.22px;
+        left: 0px;
+        top: 206.868px;
+        overflow: visible;
+    }
+    #boton_A1_Rectangle_48 {
+        opacity: 1;
+        fill: rgba(255,255,255,1);
+    }
+    .boton_A1_Rectangle_48 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 31px;
+        left: 0px;
+        top: 0.22px;
+    }
+    #boton_A1_Group_30 {
+        opacity: 1;
+        position: absolute;
+        width: 69px;
+        height: 31.22px;
+        left: 170px;
+        top: 0px;
+        overflow: visible;
+    }
+    #boton_comprar_A1_Rectangle_49 {
+        opacity: 1;
+        fill: rgba(255,128,0,1);
+    }
+    .boton_comprar_A1_Rectangle_49 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 31.22px;
+        left: 0px;
+        top: 0px;
+    }
+    #Comprar_A1_Text_17 {
+        opacity: 1;
+        position: absolute;
+        left: 8.25px;
+        top: 8.336px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 53px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(255,255,255,1);
+    }
+    #__A1_Text_18 {
+        opacity: 1;
+        position: absolute;
+        left: 462px;
+        top: 139.792px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 33px;
+        height: 32px;
+        text-align: center;
+        font-family: Font Awesome 5 Free, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(255,128,0,1);
+    }
+    #__A1_Text_19 {
+        opacity: 1;
+        position: absolute;
+        left: 462px;
+        top: 423.792px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 33px;
+        height: 32px;
+        text-align: center;
+        font-family: Font Awesome 5 Free, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(255,128,0,1);
+    }
+    #__A1_Text_20 {
+        opacity: 1;
+        position: absolute;
+        left: 0px;
+        top: 423.792px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 33px;
+        height: 32px;
+        text-align: center;
+        font-family: Font Awesome 5 Free, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(255,128,0,1);
+    }
+    #__A1_Text_21 {
+        opacity: 1;
+        position: absolute;
+        left: 0px;
+        top: 139.792px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 33px;
+        height: 32px;
+        text-align: center;
+        font-family: Font Awesome 5 Free, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(255,128,0,1);
+    }
+    #izquierda {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 549.088px;
+        left: 138px;
+        top: 181px;
+        overflow: visible;
+    }
+    #izquierda_A1_Rectangle_50 {
+        opacity: 1;
+        fill: rgba(255,255,255,1);
+    }
+    .izquierda_A1_Rectangle_50 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 545.441px;
+        left: 0px;
+        top: 0.208px;
+    }
+    #Novedad {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 549.088px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Novedad_A1_Group_33 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 275.526px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #titulo_A1_Group_34 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 30px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #nombre_A1_Rectangle_51 {
+        opacity: 1;
+        fill: rgba(255,128,0,1);
+    }
+    .nombre_A1_Rectangle_51 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 30px;
+        left: 0px;
+        top: 0px;
+    }
+    #titulo_A1_Text_22 {
+        opacity: 1;
+        position: absolute;
+        left: 86.5px;
+        top: 4px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 67px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(255,255,255,1);
+    }
+    #novedad {
+        opacity: 1;
+        fill: url(#novedad_A1_Rectangle_53_pattern);
+    }
+    .novedad {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 133px;
+        left: 0px;
+        top: 30.208px;
+    }
+    #descripcion {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 113.93px;
+        left: 0px;
+        top: 161.596px;
+        overflow: visible;
+    }
+    #descripcion_A1_Rectangle_54 {
+        opacity: 1;
+        fill: rgba(255,255,255,1);
+    }
+    .descripcion_A1_Rectangle_54 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 113.052px;
+        left: 0px;
+        top: 0px;
+    }
+    #_Lorem_ipsum_dolor_sit_amet__c {
+        opacity: 1;
+        position: absolute;
+        left: 11px;
+        top: 0.878px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 229px;
+        height: 113.052px;
+        text-align: left;
+        font-family: Segoe UI, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(112,112,112,1);
+    }
+    #ver__ {
+        opacity: 1;
+        position: absolute;
+        width: 69px;
+        height: 11px;
+        left: 170px;
+        top: 263.416px;
+        overflow: visible;
+    }
+    #Rect_ngulo_18 {
+        opacity: 1;
+        fill: rgba(255,255,255,1);
+    }
+    .Rect_ngulo_18 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 9.964px;
+        left: 0px;
+        top: 0.268px;
+    }
+    #VER___A1_Text_24 {
+        opacity: 1;
+        position: absolute;
+        left: 20.5px;
+        top: 0px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 29px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        color: rgba(255,128,0,1);
+    }
+    #Novedad_A1_Group_37 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 270.713px;
+        left: 0px;
+        top: 278.375px;
+        overflow: visible;
+    }
+    #titulo_A1_Group_38 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 30px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #nombre_A1_Rectangle_56 {
+        opacity: 1;
+        fill: rgba(255,128,0,1);
+    }
+    .nombre_A1_Rectangle_56 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 30px;
+        left: 0px;
+        top: 0px;
+    }
+    #titulo_A1_Text_25 {
+        opacity: 1;
+        position: absolute;
+        left: 86.5px;
+        top: 4px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 67px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(255,255,255,1);
+    }
+    #novedad_A1_Rectangle_57 {
+        opacity: 1;
+        fill: url(#novedad_A1_Rectangle_58_pattern);
+    }
+    .novedad_A1_Rectangle_57 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 133px;
+        left: 0px;
+        top: 30.208px;
+    }
+    #descripcion_A1_Group_39 {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 113.93px;
+        left: 0px;
+        top: 156.782px;
+        overflow: visible;
+    }
+    #descripcion_A1_Rectangle_59 {
+        opacity: 1;
+        fill: rgba(255,255,255,1);
+    }
+    .descripcion_A1_Rectangle_59 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 113.052px;
+        left: 0px;
+        top: 0px;
+    }
+    #_Lorem_ipsum_dolor_sit_amet__c_A1_Text_26 {
+        opacity: 1;
+        position: absolute;
+        left: 11px;
+        top: 0.878px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 229px;
+        height: 113.052px;
+        text-align: left;
+        font-family: Segoe UI, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(112,112,112,1);
+    }
+    #ver___A1_Group_40 {
+        opacity: 1;
+        position: absolute;
+        width: 69px;
+        height: 11px;
+        left: 170px;
+        top: 258.603px;
+        overflow: visible;
+    }
+    #Rect_ngulo_18_A1_Rectangle_60 {
+        opacity: 1;
+        fill: rgba(255,255,255,1);
+    }
+    .Rect_ngulo_18_A1_Rectangle_60 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 9.964px;
+        left: 0px;
+        top: 0.268px;
+    }
+    #VER___A1_Text_27 {
+        opacity: 1;
+        position: absolute;
+        left: 20.5px;
+        top: 0px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 29px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        color: rgba(255,128,0,1);
+    }
+    #derecha {
+        opacity: 1;
+        position: absolute;
+        width: 239px;
+        height: 549.12px;
+        left: 903px;
+        top: 181px;
+        overflow: visible;
+    }
+    #derecha_A1_Rectangle_61 {
+        opacity: 1;
+        fill: rgba(255,255,255,1);
+    }
+    .derecha_A1_Rectangle_61 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 548.88px;
+        left: 0px;
+        top: 0px;
+    }
+    #Rect_ngulo_19 {
+        opacity: 1;
+        fill: rgba(255,128,0,1);
+    }
+    .Rect_ngulo_19 {
+        position: absolute;
+        overflow: visible;
+        width: 239px;
+        height: 30px;
+        left: 0px;
+        top: 0.208px;
+    }
+    #NUESTRAS_MARCAS {
+        opacity: 1;
+        position: absolute;
+        left: 22px;
+        top: 2.208px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 185px;
+        height: 26px;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(246,242,242,1);
+    }
+    #Repetir_cuadr_cula_2 {
+        opacity: 1;
+        position: absolute;
+        width: 101px;
+        height: 502.12px;
+        left: 69px;
+        top: 47px;
+        overflow: hidden;
+    }
+    #Repetir_cuadr_cula_2_0 {
+        opacity: 1;
+        position: absolute;
+        width: 101px;
+        height: 89px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #HELLA {
+        opacity: 1;
+        fill: url(#HELLA_A1_Rectangle_64_pattern);
+    }
+    .HELLA {
+        position: absolute;
+        overflow: visible;
+        width: 101px;
+        height: 89px;
+        left: 0px;
+        top: 0px;
+    }
+    #Repetir_cuadr_cula_2_1 {
+        opacity: 1;
+        position: absolute;
+        width: 101px;
+        height: 89px;
+        left: 0px;
+        top: 105px;
+        overflow: visible;
+    }
+    #HELLA_A1_Rectangle_65 {
+        opacity: 1;
+        fill: url(#HELLA_A1_Rectangle_66_pattern);
+    }
+    .HELLA_A1_Rectangle_65 {
+        position: absolute;
+        overflow: visible;
+        width: 101px;
+        height: 89px;
+        left: 0px;
+        top: 0px;
+    }
+    #Repetir_cuadr_cula_2_2 {
+        opacity: 1;
+        position: absolute;
+        width: 101px;
+        height: 89px;
+        left: 0px;
+        top: 210px;
+        overflow: visible;
+    }
+    #HELLA_A1_Rectangle_67 {
+        opacity: 1;
+        fill: url(#HELLA_A1_Rectangle_68_pattern);
+    }
+    .HELLA_A1_Rectangle_67 {
+        position: absolute;
+        overflow: visible;
+        width: 101px;
+        height: 89px;
+        left: 0px;
+        top: 0px;
+    }
+    #Repetir_cuadr_cula_2_3 {
+        opacity: 1;
+        position: absolute;
+        width: 101px;
+        height: 89px;
+        left: 0px;
+        top: 315px;
+        overflow: visible;
+    }
+    #HELLA_A1_Rectangle_69 {
+        opacity: 1;
+        fill: url(#HELLA_A1_Rectangle_70_pattern);
+    }
+    .HELLA_A1_Rectangle_69 {
+        position: absolute;
+        overflow: visible;
+        width: 101px;
+        height: 89px;
+        left: 0px;
+        top: 0px;
+    }
+    #Repetir_cuadr_cula_2_4 {
+        opacity: 1;
+        position: absolute;
+        width: 101px;
+        height: 89px;
+        left: 0px;
+        top: 420px;
+        overflow: visible;
+    }
+    #HELLA_A1_Rectangle_71 {
+        opacity: 1;
+        fill: url(#HELLA_A1_Rectangle_72_pattern);
+    }
+    .HELLA_A1_Rectangle_71 {
+        position: absolute;
+        overflow: visible;
+        width: 101px;
+        height: 89px;
+        left: 0px;
+        top: 0px;
+    }
+    #footer {
+        opacity: 1;
+        position: absolute;
+        width: 1004px;
+        height: 62.387px;
+        left: 138px;
+        top: 737.613px;
+        overflow: visible;
+    }
+    #footer_A1_Rectangle_73 {
+        opacity: 1;
+        fill: rgba(25,255,54,1);
+    }
+    .footer_A1_Rectangle_73 {
+        position: absolute;
+        overflow: visible;
+        width: 1004px;
+        height: 62.387px;
+        left: 0px;
+        top: 0px;
+    }
+    #Desarrollado_por_Deivy_Guti_rr {
+        opacity: 1;
+        position: absolute;
+        left: 594px;
+        top: 32.387px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 354px;
+        height: 30px;
+        text-align: right;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: rgba(255,255,255,1);
+    }
+    #nav {
+        opacity: 1;
+        position: absolute;
+        width: 1004px;
+        height: 48px;
+        left: 138px;
+        top: 126.013px;
+        overflow: visible;
+    }
+    #menu {
+        opacity: 1;
+        fill: rgba(25,255,54,1);
+    }
+    .menu {
+        position: absolute;
+        overflow: visible;
+        width: 1004px;
+        height: 35px;
+        left: 0px;
+        top: 12.987px;
+    }
+    #botones {
+        opacity: 1;
+        position: absolute;
+        width: 324px;
+        height: 35px;
+        left: 340px;
+        top: 12.987px;
+        overflow: visible;
+    }
+    #Grupo_3 {
+        opacity: 1;
+        position: absolute;
+        width: 69px;
+        height: 34.987px;
+        left: 170px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Rect_ngulo_7 {
+        opacity: 0.8;
+        fill: rgba(18,203,42,1);
+    }
+    .Rect_ngulo_7 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 34.987px;
+        left: 0px;
+        top: 0px;
+    }
+    #Nosotros {
+        opacity: 1;
+        position: absolute;
+        left: 12px;
+        top: 12px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 41px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        color: rgba(255,255,255,1);
+    }
+    #Grupo_2 {
+        opacity: 1;
+        position: absolute;
+        width: 72px;
+        height: 35px;
+        left: 252px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Rect_ngulo_10 {
+        opacity: 0.8;
+        fill: rgba(18,203,42,1);
+    }
+    .Rect_ngulo_10 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 35px;
+        left: 3px;
+        top: 0px;
+    }
+    #Contactenos {
+        opacity: 1;
+        position: absolute;
+        left: 0px;
+        top: 12px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 70px;
+        height: 11px;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        color: rgba(255,255,255,1);
+    }
+    #Grupo_4 {
+        opacity: 1;
+        position: absolute;
+        width: 69px;
+        height: 35px;
+        left: 85px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Rect_ngulo_11 {
+        opacity: 0.8;
+        fill: rgba(18,203,42,1);
+    }
+    .Rect_ngulo_11 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 35px;
+        left: 0px;
+        top: 0px;
+    }
+    #Cat_logo {
+        opacity: 1;
+        position: absolute;
+        left: 15px;
+        top: 12px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 41px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        color: rgba(255,255,255,1);
+    }
+    #Grupo_1 {
+        opacity: 1;
+        position: absolute;
+        width: 69px;
+        height: 34.987px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Rect_ngulo_12 {
+        opacity: 0.8;
+        fill: rgba(18,203,42,1);
+    }
+    .Rect_ngulo_12 {
+        position: absolute;
+        overflow: visible;
+        width: 69px;
+        height: 34.987px;
+        left: 0px;
+        top: 0px;
+    }
+    #Novedades {
+        opacity: 1;
+        position: absolute;
+        left: 10px;
+        top: 12px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 51px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        color: rgba(255,255,255,1);
+    }
+    #ingresar {
+        opacity: 1;
+        position: absolute;
+        width: 39.996px;
+        height: 17.719px;
+        left: 868.004px;
+        top: 21.987px;
+        overflow: visible;
+    }
+    #Rect_ngulo_20 {
+        opacity: 1;
+        fill: rgba(18,203,42,1);
+    }
+    .Rect_ngulo_20 {
+        position: absolute;
+        overflow: visible;
+        width: 39.996px;
+        height: 17.719px;
+        left: 0px;
+        top: 0px;
+    }
+    #Ingresar {
+        opacity: 1;
+        position: absolute;
+        left: 0.998px;
+        top: 3.506px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 39px;
+        white-space: nowrap;
+        text-align: right;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        color: rgba(255,255,255,1);
+    }
+    #bienvenida {
+        opacity: 1;
+        position: absolute;
+        width: 154px;
+        height: 35px;
+        left: 0px;
+        top: 13px;
+        overflow: visible;
+    }
+    #bienvenido {
+        opacity: 1;
+        fill: transparent;
+    }
+    .bienvenido {
+        position: absolute;
+        overflow: visible;
+        width: 154px;
+        height: 35px;
+        left: 0px;
+        top: 0px;
+    }
+    #Hola__Fulanito {
+        opacity: 1;
+        position: absolute;
+        left: 6px;
+        top: 11.286px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 64px;
+        height: 15px;
+        text-align: left;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        color: rgba(246,242,242,1);
+    }
+    #salir {
+        opacity: 1;
+        position: absolute;
+        width: 27.948px;
+        height: 16px;
+        left: 85px;
+        top: 10.987px;
+        overflow: visible;
+    }
+    #Rect_ngulo_20_A1_Rectangle_81 {
+        opacity: 1;
+        fill: rgba(18,203,42,1);
+    }
+    .Rect_ngulo_20_A1_Rectangle_81 {
+        position: absolute;
+        overflow: visible;
+        width: 27.948px;
+        height: 16px;
+        left: 0px;
+        top: 0px;
+    }
+    #Salir {
+        opacity: 1;
+        position: absolute;
+        left: 4.147px;
+        top: 3px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 21px;
+        white-space: nowrap;
+        text-align: right;
+        font-family: Verdana, fuentes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        color: rgba(255,255,255,1);
+    }
+    #carrito {
+        opacity: 1;
+        fill: url(#carrito_A1_Rectangle_83_pattern);
+    }
+    .carrito {
+        position: absolute;
+        overflow: visible;
+        width: 62px;
+        height: 48px;
+        left: 935px;
+        top: 0px;
+    }
