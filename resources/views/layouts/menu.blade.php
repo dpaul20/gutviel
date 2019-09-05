@@ -1,4 +1,5 @@
-<div class="col-xs-4 col-md-3">
+ <div class="menu row">
+    <div class="col-xs-4 col-md-3">
     Hola, <strong>David</strong> <a href="#" class="btn btn-light">Cerrar sesión</a>
 </div>
 <div class="col-xs-4 col-md-6">
@@ -23,4 +24,5 @@
 </div>
 <div class="col-xs-4 col-md-3">
     <img src="{{ asset('/img/cart.png') }}">
+</div>
 </div>

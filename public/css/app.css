@@ -1,38 +1,55 @@
+body {
+    background-color: #F1EEEE;
+}
+#header {
+  background-color: #FF8000;
+}
+.menu.row {
+    background-color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#footer {
+  background-color: #5F9BF5;
+}
+
+#basicSelect img,
+#basicSearch img {
+  height: 24px;
+}
+
+#basicSelect,
+#basicSearch {
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tituloOrange {
+  color: #F6F2F2;
+  background-color: #FF8000;
+  border-radius: 12px;
+  text-align: center;
+}
+.col-md-5.logo {
+    padding: 0;
+    width: 100%;
+}
+.row .carousel2{
+    margin-top: 15px;
+}
 /*// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap*/
+// No media query since this is the default in Bootstrap
 
-/*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
 
-}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
 
-/*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-	.header{
-		background-color: orange;
-		padding: 0;
-	}
-}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
 
-/*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-	.header{
-		background-color: orange;
-		padding: 0;
-	}
-	.novedades{
-		display: block;
-	}
-	.paginacion{
-		text-align: center;
-	}
-}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
 
-/*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-	.header{
-		background-color: orange;
-		padding: 0;
-	}
-	
-}

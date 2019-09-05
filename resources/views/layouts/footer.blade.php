@@ -1,6 +1,9 @@
-<div class="col-md-12">
-
-	<address>
-		<strong>Twitter, Inc.</strong><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890
-	</address>
+<div class="row">
+	<div class="col-md-12 " id="footer">
+		<address>
+			El Vigía, Estado Mérida, Venezuela. Celular: 0414-7553617
+		</address>
+		Copyright dPaul System's, 2019.
+	</div>
 </div>
+

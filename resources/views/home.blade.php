@@ -5,32 +5,37 @@
     <div class="row novedades">
         <div class="col-md-12">
             <div class="card">
+                <div class="tituloOrange ">
+                    <h5 class="card-title">
+                        TÍTULO
+                    </h5>
+                </div>
+                
                 <img class="card-img-top" alt="Bootstrap Thumbnail First" src="https://www.layoutit.com/img/people-q-c-600-200-1.jpg" />
                 <div class="card-block">
-                    <h5 class="card-title">
-                        Card title
-                    </h5>
                     <p class="card-text">
                         Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
                     </p>
                     <p>
-                        <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+                        <a class="btn" href="#">Ver más...</a>
                     </p>
                 </div>
             </div>
         </div>
         <div class="col-md-12">
             <div class="card">
+                <div class="tituloOrange ">
+                    <h5 class="card-title">
+                        TÍTULO
+                    </h5>
+                </div>
                 <img class="card-img-top" alt="Bootstrap Thumbnail Third" src="https://www.layoutit.com/img/sports-q-c-600-200-1.jpg" />
                 <div class="card-block">
-                    <h5 class="card-title">
-                        Card title
-                    </h5>
                     <p class="card-text">
                         Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
                     </p>
                     <p>
-                        <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+                        <a class="btn" href="#">Ver más...</a>
                     </p>
                 </div>
             </div>
@@ -66,116 +71,118 @@
     
 </div>
 <div class="col-md-6">
-    <div class="carousel slide" id="carousel-852039">
-        <ol class="carousel-indicators">
-            <li data-slide-to="0" data-target="#carousel-852039" class="active">
-            </li>
-            <li data-slide-to="1" data-target="#carousel-852039">
-            </li>
-            <li data-slide-to="2" data-target="#carousel-852039">
-            </li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" alt="Carousel Bootstrap First" src="https://www.layoutit.com/img/sports-q-c-1600-500-1.jpg" />
-                <div class="carousel-caption">
-                    <h4>
-                        First Thumbnail label
-                    </h4>
-                    <p>
-                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                    </p>
+    <div class="row">
+        <div class="col-md-12">
+            {{-- crousel --}}
+            <div class="row">
+                <div class="col-md-8">
+                    <h5>SOLO POR HOY</h5>
+                </div>
+                <div class="col-md-4">
+                    VER +
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" alt="Carousel Bootstrap Second" src="https://www.layoutit.com/img/sports-q-c-1600-500-2.jpg" />
-                <div class="carousel-caption">
-                    <h4>
-                        Second Thumbnail label
-                    </h4>
-                    <p>
-                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                    </p>
-                </div>
+            <div id="gallery" style="display:none;">
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=1" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=2" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=3" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=4" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=5" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=6" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=7" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=8" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" alt="Carousel Bootstrap Third" src="https://www.layoutit.com/img/sports-q-c-1600-500-3.jpg" />
-                <div class="carousel-caption">
-                    <h4>
-                        Third Thumbnail label
-                    </h4>
-                    <p>
-                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                    </p>
-                </div>
-            </div>
-        </div> <a class="carousel-control-prev" href="#carousel-852039" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-852039" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+            {{-- fin carousel --}}
+        </div>
     </div>
-    <div class="carousel slide" id="carousel-627933">
-        <ol class="carousel-indicators">
-            <li data-slide-to="0" data-target="#carousel-627933" class="active">
-            </li>
-            <li data-slide-to="1" data-target="#carousel-627933">
-            </li>
-            <li data-slide-to="2" data-target="#carousel-627933">
-            </li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" alt="Carousel Bootstrap First" src="https://www.layoutit.com/img/sports-q-c-1600-500-1.jpg" />
-                <div class="carousel-caption">
-                    <h4>
-                        First Thumbnail label
-                    </h4>
-                    <p>
-                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                    </p>
+    <div class="row carousel2">
+        <div class="col-md-12 ">
+            {{-- crousel --}}
+            <div class="row">
+                <div class="col-md-8">
+                    <h5>SOLO POR HOY</h5>
+                </div>
+                <div class="col-md-4">
+                    VER +
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" alt="Carousel Bootstrap Second" src="https://www.layoutit.com/img/sports-q-c-1600-500-2.jpg" />
-                <div class="carousel-caption">
-                    <h4>
-                        Second Thumbnail label
-                    </h4>
-                    <p>
-                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                    </p>
-                </div>
+            <div id="gallery2" style="display:none;">
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=1" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=2" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=3" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=4" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=5" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=6" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=7" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
+                <a href="">
+                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=8" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                </a>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" alt="Carousel Bootstrap Third" src="https://www.layoutit.com/img/sports-q-c-1600-500-3.jpg" />
-                <div class="carousel-caption">
-                    <h4>
-                        Third Thumbnail label
-                    </h4>
-                    <p>
-                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                    </p>
-                </div>
-            </div>
-        </div> <a class="carousel-control-prev" href="#carousel-627933" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-627933" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+            {{-- fin carousel --}}
+        </div>
     </div>
+    
 </div>
 <div class="col-md-3">
+    <div class="tituloOrange ">
+        <h5>BUSCAR PRODUCTO</h5>
+    </div>
+    
     <form role="form">
         <div class="input-group mb-3">
-            <select class="custom-select" id="inputGroupSelect02">
-                <option selected>Choose...</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+            <select class="custom-select" aria-describedby="basicSelect">
+                <option selected>Buscar por...</option>
+                <option value="1">Código producto</option>
+                <option value="2">Nombre producto</option>
+                <option value="2">Marca</option>
+                <option value="3">Linea</option>
             </select>
             <div class="input-group-append">
-                <label class="input-group-text" for="inputGroupSelect02">Options</label>
+                <span class="input-group-text" id="basicSelect">
+                    <img src="{{ asset('/img/angle-right-solid.svg') }}">
+                </span>
             </div>
         </div>
-        <div class="form-group">
-            <input type="search" class="form-control" id="" placeholder="Buscar..." />
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Buscar..." aria-label="Recipient's username" aria-describedby="basicSearch">
+            <div class="input-group-append">
+                <span class="input-group-text" id="basicSearch">
+                    <img src="{{ asset('/img/Icono_buscar.png') }}">
+                </span>
+            </div>
         </div>
-        <button type="submit" class="btn btn-primary">
-            Submit
-        </button>
     </form>
 </div>
 @endsection
