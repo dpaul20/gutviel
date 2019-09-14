@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('contenedor')
-<div class="col-md-3">
+<div class="col-md-3" id="contentIzquierda">
     <div class="row novedades">
         <div class="col-md-12">
             <div class="card">
@@ -73,7 +73,7 @@
 <div class="col-md-6">
     <div class="row">
         <div class="col-md-12">
-            {{-- crousel --}}
+            {{-- banner --}}
             <div class="row">
                 <div class="col-md-8">
                     <h5>SOLO POR HOY</h5>
@@ -82,31 +82,25 @@
                     VER +
                 </div>
             </div>
-            <div id="gallery" style="display:none;">
-                <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=1" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="//via.placeholder.com/600x400?text=1" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="//via.placeholder.com/600x400?text=2" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="//via.placeholder.com/600x400?text=3" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
                 </a>
-                
-                <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=2" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
-                </a>
-                <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=3" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
-                </a>
-                <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=4" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
-                </a>
-                <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=5" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
-                </a>
-                <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=6" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
-                </a>
-                <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=7" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
-                </a>
-                <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=8" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
                 </a>
             </div>
             {{-- fin carousel --}}
@@ -127,7 +121,7 @@
                 <a href="">
                     <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=1" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
-                
+
                 <a href="">
                     <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=2" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
@@ -153,7 +147,7 @@
             {{-- fin carousel --}}
         </div>
     </div>
-    
+
 </div>
 <div class="col-md-3">
     <div class="tituloOrange ">

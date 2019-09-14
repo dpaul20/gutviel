@@ -1,11 +1,11 @@
 <div class="row">
 	<div class="col-md-12 " id="header">
 		<div class="row">
-			<div class="col-md-5 logo">
-				<img src="{{ asset('/img/logo@2x.png') }}" alt="Representaciones Gutviel">
+			<div class="col-9 col-md-5 col-xl-5 " id="logo">
+				<img src="{{ asset('/img/logo@2x.png') }}" class="img-fluid" alt="Representaciones Gutviel">
 			</div>
-			<div class="col-md-7">
-				<div class="page-header">
+			<div class="col-3 col-md-7 col-xl-7">
+				<div class="page-header" id="tituloDerecha">  
 					<h1>
 						<small>AHORRA MÁS CON NUESTROS PRECIOS</small> IMBATIBLES
 					</h1>

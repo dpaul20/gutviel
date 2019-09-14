@@ -1,28 +1,33 @@
  <div class="menu row">
-    <div class="col-xs-4 col-md-3">
-    Hola, <strong>David</strong> <a href="#" class="btn btn-light">Cerrar sesión</a>
-</div>
-<div class="col-xs-4 col-md-6">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="navbar-nav">
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">NOSOTROS</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">NOVEDADES</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">CATÁLOGO</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">CONTACTANOS</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</div>
-<div class="col-xs-4 col-md-3">
-    <img src="{{ asset('/img/cart.png') }}">
-</div>
+    <div class="col-12 col-xs-12 col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-light ">  
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="{{ asset('/img/cart.png') }}">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <span class="navbar-brand textAzul">
+                    Hola, <strong>David</strong>
+                </span>
+                <a class="navbar-brand textAzul" href="#">Cerrar sesión</a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">NOVEDADES</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">CATÁLOGO</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">CONTÁCTENOS</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
+    </div>
 </div>

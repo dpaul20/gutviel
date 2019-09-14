@@ -1,55 +1,105 @@
 body {
-    background-color: #F1EEEE;
+	background-color: #F1EEEE;
 }
 #header {
-  background-color: #FF8000;
+	background-color: #FF8000;
+}
+#logo {
+	padding: 0;
+	width: 100%;
+}
+nav{
+	background-color: #FFFFFF;
+}
+
+/*nav.navbar.navbar-expand-lg {
+    height: 35px;
+}*/
+/*nav .navbar-nav li a{
+  color: white !important;
+  }*/
+.nav-link{
+	font-size: 16px;
+	color: #FF8000 !important;
+}
+.textAzul{
+	font-size: 12px;
+	color: #5F9BF5 !important;
+}
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+	#tituloDerecha{
+		display: none;
+	}
+	#contentIzquierda{
+		display: none;
+	}
+	#logo {
+    flex: 75%;
+    max-width: 75%;
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	#tituloDerecha{
+		text-align: right;
+		bottom: 0px;
+		position: absolute;
+		margin-right: 15px;
+		margin-bottom: 10px;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+
+
+#tituloDerecha h1{
+	color: #F6F2F2;
+	font-size: 36px;
+
 }
 .menu.row {
-    background-color: #FFFFFF;
-    margin-top: 5px;
-    margin-bottom: 5px;
+	background-color: #FFFFFF;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 #footer {
-  background-color: #5F9BF5;
+	background-color: #5F9BF5;
 }
 
 #basicSelect img,
 #basicSearch img {
-  height: 24px;
+	height: 24px;
 }
 
 #basicSelect,
 #basicSearch {
-  width: 40px;
-  background-color: rgba(255, 255, 255, 0.5);
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 .tituloOrange {
-  color: #F6F2F2;
-  background-color: #FF8000;
-  border-radius: 12px;
-  text-align: center;
+	color: #F6F2F2;
+	background-color: #FF8000;
+	border-radius: 12px;
+	text-align: center;
 }
-.col-md-5.logo {
-    padding: 0;
-    width: 100%;
-}
+
 .row .carousel2{
-    margin-top: 15px;
+	margin-top: 15px;
 }
-/*// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }*/
 
