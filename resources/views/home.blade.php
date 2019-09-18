@@ -11,7 +11,7 @@
                     </h5>
                 </div>
                 
-                <img class="card-img-top" alt="Bootstrap Thumbnail First" src="https://www.layoutit.com/img/people-q-c-600-200-1.jpg" />
+                <img class="card-img-top" alt="Bootstrap Thumbnail First" src="{{ url('/img/temporales/novedad.png') }}" />
                 <div class="card-block">
                     <p class="card-text">
                         Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
@@ -29,7 +29,7 @@
                         TÍTULO
                     </h5>
                 </div>
-                <img class="card-img-top" alt="Bootstrap Thumbnail Third" src="https://www.layoutit.com/img/sports-q-c-600-200-1.jpg" />
+                <img class="card-img-top" alt="Bootstrap Thumbnail Third" src="{{ url('/img/temporales/novedad.png') }}" />
                 <div class="card-block">
                     <p class="card-text">
                         Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
@@ -75,13 +75,13 @@
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="//via.placeholder.com/600x400?text=1" class="d-block w-100" alt="...">
+                        <img src="{{ url('/img/temporales/banner.png') }}" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="//via.placeholder.com/600x400?text=2" class="d-block w-100" alt="...">
+                        <img src="{{ url('/img/temporales/banner.png') }}" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="//via.placeholder.com/600x400?text=3" class="d-block w-100" alt="...">
+                        <img src="{{ url('/img/temporales/banner.png') }}" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -109,29 +109,29 @@
             </div>
             <div id="gallery2" style="display:none;">
                 <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=1" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                    <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
 
                 <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=2" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                    <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
                 <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=3" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                    <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
                 <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=4" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                    <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
                 <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=5" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                    <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
                 <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=6" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                    <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
                 <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=7" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                    <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
                 <a href="">
-                    <img alt="Lemon Slice" src="//via.placeholder.com/600x400?text=8" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
+                    <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
             </div>
             {{-- fin carousel --}}
