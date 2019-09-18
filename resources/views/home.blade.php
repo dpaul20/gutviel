@@ -3,7 +3,7 @@
 @section('contenedor')
 <div class="col-md-3" id="contentIzquierda">
     <div class="row novedades">
-        <div class="col-md-12">
+        <div class="">
             <div class="card">
                 <div class="tituloOrange ">
                     <h5 class="card-title">
@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-12">
+        <div class="">
             <div class="card">
                 <div class="tituloOrange ">
                     <h5 class="card-title">
@@ -42,39 +42,29 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-12 paginacion">
-            <nav>
-                <ul class="pagination">
-                    <li class="page-item">
-                        <a class="page-link" href="#">Previo</a>
+        <div class=" paginacion">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
                     </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
                     <li class="page-item">
-                        <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">4</a>
-                    </li>
-                    
-                    <li class="page-item">
-                        <a class="page-link" href="#">Siguiente</a>
+                        <a class="page-link" href="#">Next</a>
                     </li>
                 </ul>
             </nav>
         </div>       
     </div>
-    
+
 </div>
 <div class="col-md-6">
     <div class="row">
         <div class="col-md-12">
             {{-- banner --}}
-            <div class="row">
+            <div class="row tituloAzul">
                 <div class="col-md-8">
                     <h5>SOLO POR HOY</h5>
                 </div>
@@ -107,9 +97,9 @@
         </div>
     </div>
     <div class="row carousel2">
-        <div class="col-md-12 ">
+        <div class="col-md-12 contenedorCarousel">
             {{-- crousel --}}
-            <div class="row">
+            <div class="row tituloAzul">
                 <div class="col-md-8">
                     <h5>SOLO POR HOY</h5>
                 </div>
@@ -149,34 +139,37 @@
     </div>
 
 </div>
-<div class="col-md-3">
-    <div class="tituloOrange ">
-        <h5>BUSCAR PRODUCTO</h5>
+<div class="col-md-3 contBuscador">
+    <div class="buscador container">
+        <div class="tituloOrange ">
+            <h5>BUSCAR PRODUCTO</h5>
+        </div>
+
+        <form role="form">
+            <div class="input-group mb-3">
+                <select class="custom-select" aria-describedby="basicSelect">
+                    <option selected>Buscar por...</option>
+                    <option value="1">Código producto</option>
+                    <option value="2">Nombre producto</option>
+                    <option value="2">Marca</option>
+                    <option value="3">Linea</option>
+                </select>
+                <div class="input-group-append">
+                    <span class="input-group-text" id="basicSelect">
+                        <img src="{{ asset('/img/angle-right-solid.svg') }}">
+                    </span>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Buscar..." aria-label="Recipient's username" aria-describedby="basicSearch">
+                <div class="input-group-append">
+                    <span class="input-group-text" id="basicSearch">
+                        <img src="{{ asset('/img/Icono_buscar.png') }}">
+                    </span>
+                </div>
+            </div>
+        </form>
     </div>
     
-    <form role="form">
-        <div class="input-group mb-3">
-            <select class="custom-select" aria-describedby="basicSelect">
-                <option selected>Buscar por...</option>
-                <option value="1">Código producto</option>
-                <option value="2">Nombre producto</option>
-                <option value="2">Marca</option>
-                <option value="3">Linea</option>
-            </select>
-            <div class="input-group-append">
-                <span class="input-group-text" id="basicSelect">
-                    <img src="{{ asset('/img/angle-right-solid.svg') }}">
-                </span>
-            </div>
-        </div>
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Buscar..." aria-label="Recipient's username" aria-describedby="basicSearch">
-            <div class="input-group-append">
-                <span class="input-group-text" id="basicSearch">
-                    <img src="{{ asset('/img/Icono_buscar.png') }}">
-                </span>
-            </div>
-        </div>
-    </form>
 </div>
 @endsection
