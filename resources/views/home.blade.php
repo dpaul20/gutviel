@@ -10,14 +10,16 @@
                         TÍTULO
                     </h5>
                 </div>
-                
-                <img class="card-img-top" alt="Bootstrap Thumbnail First" src="{{ url('/img/temporales/novedad.png') }}" />
+                <div class="centrar-imagen">
+                     <img class="card-img-top" alt="Bootstrap Thumbnail First" src="{{ url('/img/temporales/novedad.png') }}" />
+                </div>
+               
                 <div class="card-block">
                     <p class="card-text">
-                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut ."
                     </p>
                     <p>
-                        <a class="btn" href="#">Ver más...</a>
+                        <a class="btn ver-mas" href="#">Ver más...</a>
                     </p>
                 </div>
             </div>
@@ -29,19 +31,21 @@
                         TÍTULO
                     </h5>
                 </div>
-                <img class="card-img-top" alt="Bootstrap Thumbnail Third" src="{{ url('/img/temporales/novedad.png') }}" />
+                 <div class="centrar-imagen">
+                     <img class="card-img-top" alt="Bootstrap Thumbnail First" src="{{ url('/img/temporales/novedad.png') }}" />
+                </div>
                 <div class="card-block">
                     <p class="card-text">
-                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut ."
                     </p>
                     <p>
-                        <a class="btn" href="#">Ver más...</a>
+                        <a class="btn ver-mas" href="#">Ver más...</a>
                     </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
+   {{--  <div class="row">
         <div class=" paginacion">
             <nav aria-label="Page navigation example">
                 <ul class="pagination justify-content-end">
@@ -57,7 +61,7 @@
                 </ul>
             </nav>
         </div>       
-    </div>
+    </div> --}}
 
 </div>
 <div class="col-md-6">

@@ -36,16 +36,19 @@ nav{
 .card {
     border-radius: 12px;
     border: 0;
-    height: 274px;
+    height: 286px;
 }
 
 img.card-img-top {
-    height: 120px;
+    /* height: 120px; */
+    justify-content: center;
+    justify-items: center;
+    width: auto;
 }
 
 div#contentIzquierda {
-    margin-left: 0;
-    padding-left: 0;
+    /* margin-left: 0; */
+    /* padding-left: 0; */
 }
 /*// Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
@@ -131,9 +134,9 @@ div#contentIzquierda {
 
 
 p.card-text {
-    margin: 10px;
-    overflow: hidden;
-    height: 100px;
+    /* margin: 10px; */
+    /* overflow: hidden; */
+    /* height: 100px; */
 }
 
 .row.tituloAzul {
@@ -164,3 +167,23 @@ p.card-text {
 .col-md-3.contBuscador {
     padding: 0;
 }
+
+.card-block {
+    font-size: 12px;
+    height: 116px;
+}
+
+.card-block {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a.btn.ver-mas {
+    float: right;
+}
+
+.centrar-imagen {
+    /* justify-items: center; */
+}
+
+.centrar-imagen {display: flex;justify-content: center;}
