@@ -360,6 +360,7 @@ p.card-text {
 
 a.btn.ver-mas {
 	float: right;
+	color: #FF8000;
 }
 
 .centrar-imagen {
@@ -439,4 +440,7 @@ h1.tituloPromo {
     display: flex;
     width: 100%;
     justify-content: center;
+}
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0 {
+    margin-left: 10%;
 }
