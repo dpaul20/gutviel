@@ -69,12 +69,8 @@
         <div class="col-md-12">
             {{-- banner --}}
             <div class="row tituloAzul">
-                <div class="col-md-8">
-                    <h5>SOLO POR HOY</h5>
-                </div>
-                <div class="col-md-4">
-                    VER +
-                </div>
+                <h5 class="subtitulo">SOLO POR HOY</h5>
+                <h5 class="vermas">VER MÁS</h5>
             </div>
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
@@ -104,37 +100,33 @@
         <div class="col-md-12 contenedorCarousel">
             {{-- crousel --}}
             <div class="row tituloAzul">
-                <div class="col-md-8">
-                    <h5>SOLO POR HOY</h5>
-                </div>
-                <div class="col-md-4">
-                    VER +
-                </div>
+                <h5 class="subtitulo">SOLO POR HOY</h5>
+                <h5 class="vermas">VER MÁS</h5>
             </div>
             <div id="gallery2" style="display:none;">
-                <a href="">
+                <a href="{{ url('/') }}">
                     <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
 
-                <a href="">
+                <a href="{{ url('/') }}">
                     <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
-                <a href="">
+                <a href="{{ url('/') }}">
                     <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
-                <a href="">
+                <a href="{{ url('/') }}">
                     <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
-                <a href="">
+                <a href="{{ url('/') }}">
                     <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
-                <a href="">
+                <a href="{{ url('/') }}">
                     <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
-                <a href="">
+                <a href="{{ url('/') }}">
                     <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
-                <a href="">
+                <a href="{{ url('/') }}">
                     <img alt="Lemon Slice" src="{{ url('img/temporales/producto.png') }}" data-image="//via.placeholder.com/600x400?text=1" data-description="This is a Lemon Slice" style="display:none">
                 </a>
             </div>
@@ -150,7 +142,7 @@
         </div>
 
         <form role="form">
-            <div class="input-group mb-3">
+            <div class="input-group">
                 <select class="custom-select" aria-describedby="basicSelect">
                     <option selected>Buscar por...</option>
                     <option value="1">Código producto</option>
@@ -160,11 +152,11 @@
                 </select>
                 <div class="input-group-append">
                     <span class="input-group-text" id="basicSelect">
-                        <img src="{{ asset('/img/angle-right-solid.svg') }}">
+                        <img src="{{ asset('/img/flecha-right.svg') }}">
                     </span>
                 </div>
             </div>
-            <div class="input-group mb-3">
+            <div class="input-group">
                 <input type="text" class="form-control" placeholder="Buscar..." aria-label="Recipient's username" aria-describedby="basicSearch">
                 <div class="input-group-append">
                     <span class="input-group-text" id="basicSearch">
