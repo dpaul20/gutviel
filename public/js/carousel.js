@@ -1,4 +1,8 @@
 $(document).ready(function() {
+     $('#mixedSlider').multislider({
+         duration: 1000,
+         interval: 3000
+     });
     // $("#gallery").unitegallery({
     //     tile_enable_icons:false,
     //     tile_width:180,

@@ -6,7 +6,7 @@
 			</div>
 			<div class="col-3 col-md-7 col-xl-7">
 				<div class="page-header" id="tituloDerecha">  
-					<h1>
+					<h1 class="tituloPromo">
 						<small>AHORRA MÁS CON NUESTROS PRECIOS</small> IMBATIBLES
 					</h1>
 				</div>
