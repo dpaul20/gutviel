@@ -479,19 +479,19 @@ nav{
 	/*// Large devices (desktops, 992px and up)*/
 	@media (min-width: 992px) { 
 		a.carrito.navbar-brand {position: absolute;right: 20px;}
-		/*#tituloDerecha{
-			display: initial;
+		#tituloDerecha{
+			display: initial !important;
 			text-align: right;
 		}
+		h1.tituloPromo {
+    margin: 15px 15px 0 0;
+}
 		#tituloDerecha h1{
-			font-size: 36px;
-			}*/
+			font-size: 32px;
+			}
 			.novedades {
 				display: flex;
 				flex-direction: column;
-			}
-			.buscador.container {
-				height: 100%;
 			}
 			#mixedSlider .MS-content .item {
 				width: 50%;
@@ -514,6 +514,19 @@ nav{
 				font-size: 12px;
 				justify-content: center;
 			}
+			#footer {
+				margin-top: 7px;
+			}
+			.col-md-12.contenedorCarousel {
+				height: 322px;
+			}
+			.buscador.container {
+				height: 605px;
+			}
+			#mixedSlider {
+				margin-top: 35px;
+
+			}
 
 		}
 
@@ -533,5 +546,11 @@ nav{
 
 			input.typeahead.tt-hint {
 				width: 186px;
+			}
+			.buscador.container {
+				height: 99%;
+			}
+			.rg-tarjeta {
+				height: 300px;
 			}
 		}

@@ -4,7 +4,7 @@
 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="rg-contenedor">
     <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3" id="contentIzquierda">
         <div class=" novedades">
-            <div class="">
+            <div class="rg-tarjeta">
                 <div class="card">
                     <div class="tituloOrange ">
                         <h5 class="card-title">TÍTULO</h5>
@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-            <div class="">
+            <div class="rg-tarjeta">
                 <div class="card">
                     <div class="tituloOrange ">
                         <h5 class="card-title">TÍTULO</h5>
