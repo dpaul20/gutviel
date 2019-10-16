@@ -14,16 +14,16 @@
                 <a class="navbar-brand textAzul" href="#">Cerrar sesión</a>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">NOSOTROS</a>
+                        <a class="nav-link" href="{{ url('/nosotros') }}">NOSOTROS</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">NOVEDADES</a>
+                        <a class="nav-link" href="{{ url('/novedades') }}">NOVEDADES</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">CATÁLOGO</a>
+                        <a class="nav-link" href="{{ url('/catalogo') }}">CATÁLOGO</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">CONTÁCTENOS</a>
+                        <a class="nav-link" href="{{ url('/contactenos') }}">CONTÁCTENOS</a>
                     </li>
                 </ul>
             </div>

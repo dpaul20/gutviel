@@ -12,7 +12,10 @@
 */
 
 Route::get('/', 'HomeController@index')->name('home');
-
+Route::get('/nosotros', 'NosotrosController@index')->name('nosotros');
+Route::get('/novedades', 'NovedadesController@index')->name('novedades');
+Route::get('/catalogo', 'CatalogoController@index')->name('catalogo');
+Route::get('/contactenos', 'ContactenosController@index')->name('contactenos');
 
 // Auth::routes();
 
