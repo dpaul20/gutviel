@@ -14,15 +14,14 @@
     @include('layouts.scripts.css')
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid no-padding">
 
         @include('layouts.header')
 
         @include('layouts.menu')
         
-        <div class="row">
-            @yield('contenedor')
-        </div>
+
+        @yield('contenedor')
         
         @include('layouts.footer')
 
